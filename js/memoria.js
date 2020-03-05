@@ -22,7 +22,6 @@ var imgs = [
 
 /**FUNCIONES**/
 
-
 /*
 *	Obtener array imgs en orden aleatorio
 */
@@ -49,118 +48,49 @@ function randomOrder(array) {
 $( document ).ready(function() {
 
 	var click = '';
+	var id_aux = '';
+
+	// obtenemos las tarjetas(nombre de las imgs) en un array aleatorio
 	var imgsRamdon = randomOrder(imgs);
-    console.log(imgsRamdon);
 
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
+	// capturamos el evento de la tarjeta en la que se ha hecho click
+	$(".img-memory").unbind().click(function() {
+
+		var id = $(this).attr("id");
+		var index = $(this).data("index");
+
+		// asignamos a esa tarjeta la img conrrespondiente
+		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[index]);
 		
 		if (click == '') 
 		{
-			click = imgsRamdon[0];
+			click = imgsRamdon[index];
+			id_aux = id;
 		
-		}else if (click == imgsRamdon[0]) 
+		// si son iguales, acerto
+		}else if (click == imgsRamdon[index] && id != id_aux) 
 		{
 			console.log('Acerto');
+			click = '';
+			id = '';
+			id_aux = '';
 		}else
 		{
 			console.log('No acerto');
+			var selector1 = '#'+id;
+			var selector2 = '#'+id_aux;
+
+			// ocultamos las tarjetas despues de 2 seg
+			setTimeout(function(){
+				$(selector1).attr("src", "assets/imgs-memoria/default.jpg"); 
+				$(selector2).attr("src", "assets/imgs-memoria/default.jpg"); 
+			}, 2000);
+			
 			click = '';
+			id = '';
+			id_aux = '';
 		}
 		
-	});
-
-	$("#img-2").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[1]);
-		click1 = imgsRamdon[1];
-
-		if (click == '') 
-		{
-			click = imgsRamdon[1];
-		
-		}else if (click == imgsRamdon[1]) 
-		{
-			console.log('Acerto');
-		}else
-		{
-			console.log('No acerto');
-			click = '';
-		}
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
-	});
-
-	$("#img-1").click(function() {
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[0]);
-		click1 = imgsRamdon[0];
 	});
 
 });
