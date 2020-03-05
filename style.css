@@ -1,0 +1,17 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.bg-light {
+    background-color: rgb(120, 200, 0) !important;
+}
+
+.container-top{
+	padding-top: 20px;
+}
+
+.img-memory{
+	border: solid;
+	border-color: rgb(120, 200, 0);
+	margin: 15px;
+}

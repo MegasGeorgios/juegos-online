@@ -1,0 +1,299 @@
+¿De qué país forma parte Hawaii? 
+(De Estados Unidos*, Canada, Jamaica, México)
+¿Cuántos estados tiene integrados Estados Unidos? 
+(50*, 52, 49, 53)
+¿De qué año es la Constitución Española? 
+(1978*,)
+¿Cuál es el río más largo de España? 
+(El río Ebro*,)
+¿Cuál es el océano más grande del mundo? 
+(El océano Pacífico*,)
+¿Cómo se llama la capital de Laos? 
+(Vientián*,)
+¿En qué fecha comenzó la primera República Española? 
+(el 11 de febrero de 1873*,)
+¿Dónde se usó la primera bomba atómica en un conflicto armado? 
+(En Hiroshima, Japón, durante la II Guerra Mundial*,)
+¿Cuándo acabó la II Guerra Mundial? 
+(En 1945*,)
+¿Cómo murió Hitler? 
+(Se suicidó en su búnker*,)
+¿Dónde se encuentran las ruinas de Angkor? 
+(En Siem Reap, Camboya*,)
+¿Cuándo llegó el primer hombre a la Luna? 
+(En el año 1969*,)
+¿Quién inventó el avión? 
+(Los hermanos Wright*,)
+¿Qué idioma se habla en Suiza? 
+(Francés, italiano, alemán y romanche*,)
+¿En qué año fue el descubrimiento de América? 
+(En el 1492*,)
+¿En qué año comenzó la invasión árabe en España? 
+(En el año 711*,)
+¿Cuál es el país con mayor población del mundo? 
+(China cuenta con más de 1.350.000.000 habitantes*,)
+¿Cuál es el idioma más hablado del mundo? 
+(El chino mandarín*,)
+¿Dónde se encuentra el desierto de Gobi? 
+(En Asia*,)
+¿En qué año se creó la Organización de las Naciones Unidas 
+(ONU*,)? 
+(En el año 1945*,)
+¿Cuáles potencias se enfrentaron en las guerras púnicas? 
+(Roma y Cartago*,)
+¿Cuál es la isla más grande del mundo? 
+(Groenlandia*,)
+¿En qué guerra participó Juana de Arco? 
+(La guerra de los 100 años*,)
+¿Cuál era la capital del imperio inca? 
+(Cuzco*,)
+¿En qué año fue asesinado John F. Kennedy? 
+(1963*,)
+¿El estrecho de Gibraltar separa España de qué país? 
+(Marruecos*,)
+¿Cómo murió Louis XVI de Francia? 
+(Decapitado*,)
+¿En qué países se encuentra el Everest? 
+(China y Nepal*,)
+¿Quién fue el último esposo de Cleopatra? 
+(Marco Antonio*,)
+¿Cuáles eran los principales países de la Alianza del Eje durante la II Guerra Mundial? 
+(Alemania, Japón, Italia*,)
+¿Cuál era el nombre del dios del Sol en el Antiguo Egipto? 
+(Ra*,)
+¿Cómo se llama actualmente la antigua ciudad de Stalingrado? 
+(Volgogrado*,)
+¿En qué año se creó la World Wide Web? 
+(1991*,)
+¿Cómo murió Julio César? 
+(Asesinado por miembros del Senado*,)
+¿Quién fue el primer presidente de Estados Unidos? 
+(George Washington*,)
+¿Cuál es el nombre de la famosa batalla en la que Napoleón Bonaparte fue derrotado? 
+(La batalla de Waterloo*,)
+¿Cómo fue destruida la biblioteca de Alejandría? 
+(Fue saqueada*,)
+¿Quién escribió "La República"? 
+(Platón*,)
+¿En qué año se disolvió la Unión Soviética? 
+(En 1991*,)
+¿Quién fue el padre de la bomba atómica? 
+(Robert Oppenheimer*,)
+¿Cuántos años duró la guerra de los 100 años? 
+(116 años*,)
+¿Cuál fue el segundo país americano en independizarse? 
+(Haití*,)
+¿Qué conflicto finalizó tras la firma del Tratado de Versalles? 
+(La I Guerra Mundial*,)
+¿Quién ganó la Guerra de Vietnam? 
+(Vietnam del Norte*,)
+¿En qué año ocurrió el Genocidio de Ruanda? 
+(1994*,)
+¿Cuál es la capital de Filipinas? 
+(Manila*,)
+¿En qué océano se encuentra la isla de Guam? 
+(Océano Pacífico*,)
+¿Qué presidente soviético instauró la Perestroika? 
+(Mijaíl Gorbachov*,)
+¿Cuál es la montaña más alta de Europa y dónde se encuentra? 
+(Monte Elbrús, Rusia*,)
+¿Cuál fue el primer país en aprobar el sufragio femenino? 
+(Nueva Zelanda*,)
+¿De dónde surgió la celebración de los juegos olímpicos? 
+(De la Antigua Grecia, de la ciudad de Olimpia*,)
+¿Cuál es el deporte en el que destacó Carl Lewis? 
+(Fue una figura importante del atletismo*,)
+¿Cómo se llama el estadio de fútbol del Real Madrid? 
+(Estadio Santiago Bernabeu*,)
+¿Qué significan las siglas de FIFA? 
+(Fédération Internationale de Football Association*,)
+¿Cuántas Champions tiene el Real Madrid? 
+(Actualmente 13*,)
+¿En qué deporte destaca Tiger Woods? 
+(En el golf*,)
+¿Qué deporte practica Gemma Mengual? 
+(Natación sincronizada*,)
+¿De qué isla es el futbolista Cristiano Ronaldo? 
+(De la isla portuguesa de Madeira*,)
+¿Quién ganó el mundial de de fútbol del año 2014? 
+(Alemania*,)
+¿En qué deporte destacaba Toni Elías? 
+(En el motociclismo*,)
+¿Con qué estilo de natación vas más lento? 
+(Con braza*,)
+¿Dónde se inventó el voley? 
+(En Estados Unidos*,)
+¿Cuántos puntos vale un tiro libre en el basket? 
+(Uno*,)
+¿Cuál es la duración de un partido de fútbol? 
+(90 minutos*,)
+¿Los Pumas de rugby de dónde son? 
+(De Argentina*,)
+¿Dónde se inventó el ping-pong? 
+(En Inglaterra*,)
+¿Cuál es la ciudad anfitriona de las Olimpiadas de 2020? 
+(Tokio, Japón*,)
+¿Qué jugador de fútbol ha ganado más copas del mundo junto a su equipo? 
+(Pelé, tres veces*,)
+¿En qué equipo jugó Kobe Bryant desde 1996? 
+(Los Angeles Lakers*,)
+¿En qué equipo jugó el famoso beisbolista Derek Jeter? 
+(New York Yankees*,)
+¿Cuál es el atleta con más medallas de oro olímpicas? 
+(Michael Phelps*,)
+¿Cuál campeón de boxeo estadounidense permaneció invicto durante toda su carrera? 
+(Rocky Marciano*,)
+¿Quién ha metido más goles en la historia de los mundiales de fútbol? 
+(Miroslav Klose, 16 goles*,)
+¿Dónde se celebró la Copa Mundial de la FIFA en 1994? 
+(Italia*,)
+¿Cómo se llaman las tres grandes vueltas del ciclismo? 
+(El Tour de Francia, el Giro de Italia y la Vuelta a España*,)
+¿Cómo murió Ayrton Senna? 
+(Accidente automovilístico durante el Gran Premio de San Marino*,)
+¿Qué país ha ganado más mundiales de fútbol? 
+(Brasil*,)
+¿De qué país es el jugador de fútbol Luis Suárez? 
+(Uruguay*,)
+¿En qué olimpiadas ganó su primera medalla de oro la tenista Serena Williams? 
+(Londres 2012*,)
+¿Cómo se llamaba el ciclista italiano apodado "Il campionissimo"? 
+(Fausto Coppi*,)
+¿Qué es un derbi? 
+(Un partido disputado por dos equipos de una misma ciudad o región*,)
+¿Cuál es el equipo de la NBA con más títulos de campeonatos? 
+(Boston Celtics*,)
+¿Cuáles equipos de fútbol protagonizaron el partido apodado "Maracanazo"? 
+(Uruguay y Brasil*,)
+¿Cuál fue el primer jugador de la MLB en entrar al salón de la fama de Japón? 
+(Ichiro Suzuki*,)
+¿Cuál es el jugador de las grandes ligas con el récord de más jonrones en la historia? 
+(Barry Bonds, 762 jonrones*,)
+¿Quién fue la primera mujer en correr un maratón? 
+(Kathrine Switzer*,)
+¿Quién fue la primera patinadora artística en lograr un salto triple axel? 
+(Midori Ito*,)
+¿Cada cuántos años se realizan los Juegos Olímpicos? 
+(Cada 4 años*,)
+¿Quién fue la primera alpinista en llegar al Everest? 
+(Junko Tabei*,)
+¿Cómo se le llama al desafío de escalar las montañas más altas de cada continente? 
+(Las 7 cumbres*,)
+¿Quién aterrizó el primer 900 de la historia del skateboarding? 
+(Tony Hawk*,)
+¿Qué jugador de hockey tiene el récord por haber ganado más Copas Stanley? Henri Richard, con los Canadiens de Montréal.
+¿Dónde se inventó el baloncesto? 
+(Massachussets, Estados Unidos*,)
+¿Cuál es el país con más copas mundiales de fútbol femenino? 
+(Estados Unidos*,)
+¿Cuál es el país con más medallas olímpicas? 
+(Estados Unidos, con 2520*,)
+¿En qué equipo jugó Francesco Totti durante toda su carrera? 
+(AS Roma*,)
+¿Qué deporte práctica Simone Biles? 
+(Gimnasia artística*,)
+¿Dónde nació Rafael Nadal? Mallorca, España
+¿Qué animal es la mascota del Giro de Italia? 
+(Un lobo*,)
+¿Qué significan las siglas ATP? 
+(Asociación de Tenistas Profesionales*,)
+¿Cuándo se extinguieron los dinosaurios? 
+(Al final del período Cretácico, hace unos 65 millones de años*,)
+¿Cuál es el antepasado más antiguo del hombre del que se tiene registro? 
+(El Ardipithecus ramidus*,)
+¿Cuál es el número que viene después del 14 en el número pi? 
+(El número 1*,)
+¿La distancia entre el tiempo equivale a qué variable? 
+(La velocidad*,)
+¿Cómo se le llama al proceso de división celular para formar dos células hijas? 
+(Mitosis*,)
+¿La regla de Ruffini se aplica en qué campo de las ciencias? 
+(Las matemáticas*,)
+En la botánica, ¿el tomate es una fruta, verdura u hortaliza? 
+(Fruta*,)
+¿Cuántos elementos tiene la tabla periódica? 
+(actualmente, 118*,)
+¿Cuántos gramos son 100 mililitros? 
+(100 gramos*,)
+¿A qué velocidad viaja la luz? 
+(300.000 km/s*,)
+¿Cuál es el nombre de las partículas subatómicas de carga negativa? 
+(Electrones*,)
+¿Cuál es el nombre del teorema que afirma que, en el triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos? 
+(Teorema de Pitágoras*,)
+¿Cómo se les conoce a las células que tienen un núcleo celular diferenciado? 
+(Células eucariotas*,)
+¿Qué significan las siglas ADN? 
+(Ácido desoxirribonucleico*,)
+¿Cuál es el nombre de la época geológica en la que nos encontramos actualmente? 
+(Holoceno*,)
+¿Cuándo es el equinoccio de primavera? 
+(Entre el 19 y el 21 de marzo*,)
+¿Qué distancia hay de la Tierra a la Luna? 
+(384.400 km*,)
+¿Qué distancia hay de la Tierra al Sol? 
+(149,6 millones de km*,)
+¿Cuál es el elemento más abundante de la Tierra? 
+(El hidrógeno*,)
+¿Qué distancia hay de la corteza al núcleo de la Tierra? 
+(1220 km*,)
+¿Cómo se llama la unidad de intensidad de la corriente eléctrica? 
+(amperio o ampere*,)
+¿La arqueología es el estudio de...? 
+(Las sociedades antiguas a partir de sus restos materiales*,)
+¿Qué establece la tercera ley de Newton? 
+(Con toda acción ocurre siempre una reacción igual y contraria*,)
+¿A qué reino de seres vivos pertenecen las levaduras? 
+(El reino Fungi*,)
+¿Cuál es el animal más venenoso del mundo? 
+(La medusa avispa de mar*,)
+¿De qué están hechos los virus? 
+(Material genético y proteínas*,)
+¿Dónde están ubicados los huesos escafoides? 
+(En la muñeca*,)
+¿Cuál es la galaxia más cercana a la Vía Láctea? 
+(Andrómeda*,)
+¿Qué edad tiene la Tierra? 
+(4.543 miles de millones de años*,)
+¿A qué clasificación de las rocas pertenecen las rocas volcánicas? 
+(Rocas ígneas*,)
+¿Cuál es la fórmula más famosa de Albert Einstein? 
+(E=MC2, la energía equivale a la masa por la velocidad de la luz al cuadrado*,)
+¿Quién descubrió la penicilina? 
+(Alexander Fleming*,)
+¿Dónde se realizó el primer trasplante de corazón humano? 
+(Sudáfrica*,)
+¿Por qué es famosa Marie Curie? 
+(Por descubrir la radioactividad*,)
+¿Cuáles son las tres dimensiones espaciales? 
+(El ancho, la altura y la profundidad*,)
+¿Cuál es el planeta más grande del sistema solar? 
+(Júpiter*,)
+¿Cuál es el cuarto planeta del sistema solar? 
+(Marte*,)
+¿En la fórmula "F=m.a" qué significa la "a"? 
+(Aceleración*,)
+¿En qué año fue tomada la primera foto de un agujero negro? 
+(2019*,)
+¿Quién planteó la teoría de la evolución? 
+(Charles Darwin*,)
+ ¿Cuál es el nombre de la sustancia que le da el color verde a las plantas? 
+ (Clorofila*,)
+¿Qué órgano produce la bilirrubina? 
+(El hígado*,)
+Los ornitorrincos son mamíferos: ¿cierto o falso? 
+(Cierto*,)
+¿Qué hormona es conocida como la hormona del estrés? 
+(El cortisol*,)
+¿Qué animal produce el sonido más fuerte generado por un ser vivo? 
+(La ballena jorobada*,)
+¿Cómo se llama la sustancia en la que flota el feto dentro del útero? 
+(Líquido amniótico*,)
+¿Cuál es el ser vivo más grande del mundo? 
+(El hongo de miel o Armillaria*,)
+¿Qué determinan los meridianos? 
+(La longitud de cualquier lugar de la Tierra*,)
+Podemos encontrar poblaciones de pingüinos en el Ártico y la Antártida: ¿cierto o falso? 
+(Falso, no hay pingüinos en el Ártico*,)
+¿En qué parte del cráneo se encuentra el hueso occipital? 
+(La parte posterior del cráneo*,)
