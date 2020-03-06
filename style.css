@@ -10,8 +10,24 @@ body {
 	padding-top: 20px;
 }
 
+
+/*
+*	Memoria
+*/
 .img-memory{
 	border: solid;
 	border-color: rgb(120, 200, 0);
 	margin: 15px;
 }
+
+#cronometro{
+	margin-left: 15px;
+}
+
+#cronometro span{
+	padding-right: 10px;
+	float: left;
+}
+
+
+	
