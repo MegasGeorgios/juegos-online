@@ -1,0 +1,36 @@
+
+/*
+*	Obtener mediante ajax las preguntas y respuestas.
+*/
+function requestData() 
+{
+	$.ajax({
+	    url: "../assets/ajax/pre-resp.txt",
+	    async: false,
+	    success: function (data){
+	        fileContent = data;
+	    }
+	});
+}
+
+/*
+*	Pintar pregunta con sus opciones de respuesta 
+*/
+function old_generateQuestion(arrQtRes, numQt)
+{
+	var qt = arrQtRes[numQt].split("#"); // la pregunta
+	var opt = qt[1].split(","); // las opciones de respuesta
+	qt = qt[0];
+	var optCorrect = opt[0]; //respuesta correcta
+
+	$("#qt").text('¿'+qt); // pintar pregunta
+
+	for (let i=0; i < 4; i++) 
+	{
+		let str = i+1;
+		let selector = '#opt-'+str;
+		$(selector).text(opt[i]); // pintar opcion de respuesta
+	}
+
+	return optCorrect;
+}

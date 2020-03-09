@@ -1,0 +1,28 @@
+{
+	"arrData":
+	[
+		{
+			"qt": "¿De qué país forma parte Hawaii?", 
+			"opt":
+			[ 
+				"Estados Unidos",
+				"Canada",
+				"Jamaica",
+				"México"
+			],
+			"optCorrect": "Estados Unidos"
+		},
+
+		{
+			"qt": "¿Cuántos estados tiene integrados Estados Unidos?", 
+			"opt": 
+			[
+				50,
+				52,
+				49,
+				51
+			],
+			"optCorrect": 50
+		}
+	]
+}
