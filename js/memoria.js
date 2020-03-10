@@ -76,7 +76,7 @@ function timeChron()
 	if (sg<10) {sg="0"+sg;} 
 	if (mn<10) {mn="0"+mn;} 
 	//llevar resultado al visor.		 
-	visor.innerHTML=ho+" "+mn+" "+sg+" "+cs; 
+	visor.innerHTML=ho+":"+mn+":"+sg+":"+cs; 
 }
 
 // Detener el cronómetro
@@ -91,7 +91,7 @@ $( document ).ready(function() {
 
 	var click = '';
 	var id_aux = '';
-	var count = 0;
+	var success = 0;
 	var cro=0; //estado inicial del cronómetro.
 
 	// iniciar cronometro
@@ -102,51 +102,58 @@ $( document ).ready(function() {
 	var imgsRamdon = randomOrder(imgs);
 
 	// capturamos el evento de la tarjeta en la que se ha hecho click
+
 	$(".img-memory").unbind().click(function() {
 
-		var id = $(this).attr("id");
-		var index = $(this).data("index");
+		if (success < 8) 
+		{
+			console.log(success);
+			var id = $(this).attr("id");
+			var index = $(this).data("index");
 
-		// asignamos a esa tarjeta la img conrrespondiente
-		$(this).attr("src", "assets/imgs-memoria/"+imgsRamdon[index]);
-		
-		if (click == '') 
-		{
-			click = imgsRamdon[index];
-			id_aux = id;
-		
-		// si son iguales, acerto
-		}else if (click == imgsRamdon[index] && id != id_aux) 
-		{
-			console.log('Acerto');
-			count++;
-			click = '';
-			id = '';
-			id_aux = '';
-		}else
-		{
-			console.log('No acerto');
-			var selector1 = '#'+id;
-			var selector2 = '#'+id_aux;
-
-			// ocultamos las tarjetas despues de 2 seg
-			setTimeout(function(){
-				$(selector1).attr("src", "assets/imgs-memoria/default.jpg"); 
-				$(selector2).attr("src", "assets/imgs-memoria/default.jpg"); 
-			}, 2000);
+			// asignamos a esa tarjeta la img conrrespondiente
+			$(this).attr("src", "../assets/imgs-memoria/"+imgsRamdon[index]);
 			
-			click = '';
-			id = '';
-			id_aux = '';
-		}
+			if (click == '') 
+			{
+				click = imgsRamdon[index];
+				id_aux = id;
+			
+			// si son iguales, acerto
+			}else if (click == imgsRamdon[index] && id != id_aux) 
+			{
+				success++;
+				click = '';
+				id = '';
+				id_aux = '';
+			}else
+			{
+				var selector1 = '#'+id;
+				var selector2 = '#'+id_aux;
 
-		// detener cronometro al acertar todas (8)
-		if (count == 8) 
-		{
-			stopChronometer();
+				// ocultamos las tarjetas despues de 1.5 seg
+				setTimeout(function(){
+					$(selector1).attr("src", "../assets/imgs-memoria/default.jpg"); 
+					$(selector2).attr("src", "../assets/imgs-memoria/default.jpg"); 
+				}, 1500);
+				
+				click = '';
+				id = '';
+				id_aux = '';
+			}
+
+			// detener cronometro al acertar todas (8)
+			if (success == 8) 
+			{
+				stopChronometer();
+				setTimeout(function(){
+					var finalTime = $("#reloj").text();
+					alert('Tiempo total: '+finalTime+' ¡¡¡ Felicitaciones, lo has logrado !!!');
+				}, 1000);
+			}
 		}
-		
 	});
+	
 
 });
 

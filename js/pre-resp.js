@@ -3,6 +3,7 @@
 /**VARIABLES GLOBALES**/
 var arrQtRes;
 var countQt = 0;
+var success = 0;
 
 /**FUNCIONES**/
 
@@ -11,7 +12,6 @@ var countQt = 0;
 */
 function requestDataJSON() 
 {
-	console.log('ejecutando funcion');
 	$.ajax({
 		dataType: "json",
 	    url: "../assets/ajax/preg-resp.json",
@@ -27,6 +27,11 @@ function requestDataJSON()
 */
 function printQuestion(numQt)
 {
+	// eliminar clases resp correcta o erronea
+	$(".option").removeClass("list-group-item-success");
+	$(".option").removeClass("list-group-item-danger");
+	$(".option").prop('disabled', false);
+
 	var obj = arrQtRes[numQt]; 
 	var qt = obj.qt;	// la preguta
 	var opt = obj.opt; // las opciones de respuesta
@@ -54,6 +59,7 @@ function validateOpt(elem, optCorrect)
 	if ( optCorrect == elem.text() ) 
 	{
 		elem.addClass("list-group-item-success");
+		success++;
 	}else{
 		elem.addClass("list-group-item-danger");
 		
@@ -66,6 +72,7 @@ function validateOpt(elem, optCorrect)
 		});
 	}
 }
+
 
 /**jQuery**/
 $( document ).ready(function() {
@@ -85,12 +92,25 @@ $( document ).ready(function() {
 
 		setTimeout(function()
 		{	
+			// validar respuesta
 			validateOpt(elem, optCorrect);
 
 		}, 1000);
 
-		// contador siguiente pregunta.
+		// incrementar contador siguiente pregunta.
 		countQt++;
+
+		setTimeout(function()
+		{	
+			if (countQt < 10)
+			{
+				// siguiente pregunta
+				optCorrect = printQuestion(countQt);
+			}else{
+				alert('¡¡¡ Has acertado '+success+' de 10 !!!');
+			}
+
+		}, 3000);
 
 		
 

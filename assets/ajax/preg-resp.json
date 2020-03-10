@@ -23,6 +23,584 @@
 				51
 			],
 			"optCorrect": 50
+		},
+
+		{
+			"qt": "¿De qué año es la Constitución Española?", 
+			"opt": 
+			[
+				1978,
+				1975,
+				1981,
+				1971
+			],
+			"optCorrect":1978 
+		},
+
+		{
+			"qt": "¿Cuál es el río más largo de España?", 
+			"opt": 
+			[
+				"Ebro",
+				"Guadalquivir",
+				"Minho",
+				"Segura"
+			],
+			"optCorrect": "Ebro" 
+		},
+
+		{
+			"qt": "¿Cuál es el océano más grande del mundo?", 
+			"opt": 
+			[
+				"Pacífico",
+				"Atlántico",
+				"Índico",
+				"Ártico"
+			],
+			"optCorrect": "Pacífico"
+		},
+
+		{
+			"qt": "¿En qué fecha comenzó la primera República Española?", 
+			"opt": 
+			[
+				"11 de febrero de 1873",
+				"15 de marzo de 1871",
+				"17 de enero de 1875",
+				"20 de febrero de 1874"
+			],
+			"optCorrect": "11 de febrero de 1873"
+		},
+
+		{
+			"qt": "¿Dónde se usó la primera bomba atómica en un conflicto armado?", 
+			"opt": 
+			[
+				"Hiroshima",
+				"Chernobyl",
+				"Pyongyang",
+				"Moscú"
+			],
+			"optCorrect": "Hiroshima"
+		},
+
+		{
+			"qt": "¿Cuándo acabó la II Guerra Mundial?", 
+			"opt": 
+			[
+				1945,
+				1941,
+				1944,
+				1940
+			],
+			"optCorrect": 1945
+		},
+
+		{
+			"qt": "¿Cuándo llegó el primer hombre a la Luna?", 
+			"opt": 
+			[
+				1969,
+				1967,
+				1963,
+				1971
+			],
+			"optCorrect": 1969
+		},
+
+		{
+			"qt": "¿En qué año fue el descubrimiento de América?", 
+			"opt": 
+			[
+				1492,
+				1495,
+				1521,
+				1452
+				
+			],
+			"optCorrect": 1492
+		},
+
+		{
+			"qt": "¿En qué año comenzó la invasión árabe en España?", 
+			"opt": 
+			[
+				711,
+				821,
+				936,
+				649
+				
+			],
+			"optCorrect": 711 
+		},
+
+		{
+			"qt": "¿Cuál es el país con mayor población del mundo?", 
+			"opt": 
+			[
+				"China",
+				"India",
+				"Rusia",
+				"Estados Unidos"
+			],
+			"optCorrect": "China"
+		},
+
+		{
+			"qt": "¿Cuál es el idioma más hablado del mundo?", 
+			"opt": 
+			[
+				"Chino mandarín",
+				"Ruso",
+				"Inglés",
+				"Francés"
+			],
+			"optCorrect": "Chino mandarín"
+		},
+
+		{
+			"qt": "¿Dónde se encuentra el desierto de Gobi?", 
+			"opt": 
+			[
+				"Asia",
+				"África",
+				"América",
+				"Europa"
+			],
+			"optCorrect": "Asia"
+		},
+
+		{
+			"qt": "¿Cuál es la isla más grande del mundo?", 
+			"opt": 
+			[
+				"Groenlandia",
+				"Madagascar",
+				"Mykonos",
+				"Cuba"
+			],
+			"optCorrect": "Groenlandia"
+		},
+
+		{
+			"qt": "¿En qué año fue asesinado John F. Kennedy?", 
+			"opt": 
+			[
+				1963,
+				1965,
+				1955,
+				1960
+			],
+			"optCorrect": 1963
+		},
+
+		{
+			"qt": "¿Quién fue el último esposo de Cleopatra?", 
+			"opt": 
+			[
+				"Marco Antonio",
+				"Marco Aurelio",
+				"Julio César",
+				"Tolomeo"
+			],
+			"optCorrect": "Marco Antonio"
+		},
+
+		{
+			"qt": "¿Cuál era el nombre del dios del Sol en el Antiguo Egipto?", 
+			"opt": 
+			[
+				"Ra",
+				"Osiris",
+				"Anubis",
+				"Horus"
+			],
+			"optCorrect": "Ra"
+		},
+
+		{
+			"qt": "¿Quién escribió \"La República\"?", 
+			"opt": 
+			[
+				"Platón",
+				"Ovidio",
+				"Cicero",
+				"Plutarco"
+			],
+			"optCorrect": "Platón"
+		},
+
+		{
+			"qt": "¿En qué año se disolvió la Unión Soviética?", 
+			"opt": 
+			[
+				1991,
+				1993,
+				1990,
+				1995
+			],
+			"optCorrect": 1991
+		},
+
+		{
+			"qt": "¿Cuántos años duró la guerra de los 100 años?", 
+			"opt": 
+			[
+				"116 años",
+				"110 años",
+				"108 años",
+				"100 años"
+			],
+			"optCorrect": "116 años"
+		},
+
+		{
+			"qt": "¿Cuál fue el segundo país americano en independizarse?", 
+			"opt": 
+			[
+				"Haití",
+				"Jamaica",
+				"Cuba",
+				"Puerto Rico"
+			],
+			"optCorrect": "Haití"
+		},
+
+		{
+			"qt": "¿Cuál es la montaña más alta de Europa?", 
+			"opt": 
+			[
+				"Monte Elbrús",
+				"Mont Blanc",
+				"Monte Rosa",
+				"Monte Kazbek"
+			],
+			"optCorrect": "Monte Elbrús"
+		},
+
+		{
+			"qt": "¿Cuál fue el primer país en aprobar el sufragio femenino?", 
+			"opt": 
+			[
+				"Nueva Zelanda",
+				"España",
+				"Noruega",
+				"Islandia"
+			],
+			"optCorrect": "Nueva Zelanda"
+		},
+
+		{
+			"qt": "¿De dónde surgió la celebración de los juegos olímpicos?", 
+			"opt": 
+			[
+				"Grecia",
+				"Estados Unidos",
+				"Rusia",
+				"Alemania"
+			],
+			"optCorrect": "Grecia"
+		},
+
+		{
+			"qt": "¿En qué deporte destaca Tiger Woods?", 
+			"opt": 
+			[
+				"Golf",
+				"Beisbol",
+				"Baloncesto",
+				"Futbol americano"
+			],
+			"optCorrect": "Golf"
+		},
+
+		{
+			"qt": "¿De que ciudad es el futbolista Cristiano Ronaldo?", 
+			"opt": 
+			[
+				"Madeira",
+				"Lisboa",
+				"Oporto",
+				"Setúbal"
+			],
+			"optCorrect": "Madeira"
+		},
+
+		{
+			"qt": "¿Quién ganó el mundial de de fútbol del año 2014?", 
+			"opt": 
+			[
+				"Alemania",
+				"Brasil",
+				"Italia",
+				"Francia"
+			],
+			"optCorrect": "Alemania"
+		},
+
+		{
+			"qt": "¿Cuántos puntos vale un tiro libre en el basket?", 
+			"opt": 
+			[
+				1,
+				2,
+				3,
+				4
+			],
+			"optCorrect": 1
+		},
+
+		{
+			"qt": "¿Cuál es la duración de un partido de fútbol?", 
+			"opt": 
+			[
+				90,
+				45,
+				120,
+				180
+			],
+			"optCorrect": 90
+		},
+
+		{
+			"qt": "¿Dónde se inventó el ping-pong?", 
+			"opt": 
+			[
+				"Inglaterra",
+				"China",
+				"Korea",
+				"Japón"
+			],
+			"optCorrect": "Inglaterra"
+		},
+
+		{
+			"qt": "¿Qué jugador de fútbol ha ganado más copas del mundo junto a su equipo? ", 
+			"opt": 
+			[
+				"Pelé",
+				"Maradora",
+				"Messi",
+				"Ronaldinho"
+			],
+			"optCorrect": "Pelé"
+		},
+
+		{
+			"qt": "¿Cuál es el atleta con más medallas de oro olímpicas?", 
+			"opt": 
+			[
+				"Michael Phelps",
+				"Carl Lewis",
+				"Larisa Latynina",
+				"Mark Spitz"
+			],
+			"optCorrect": "Michael Phelps"
+		},
+
+		{
+			"qt": "¿Dónde se celebró la Copa Mundial de la FIFA en 1994?", 
+			"opt": 
+			[
+				"Italia",
+				"Argentina",
+				"Alemania",
+				"Brasil"
+			],
+			"optCorrect": "Italia"
+		},
+
+		{
+			"qt": "¿Cuáles equipos de fútbol protagonizaron el partido apodado \"Maracanazo\"?", 
+			"opt": 
+			[
+				"Uruguay y Brasil",
+				"Argentina y Brasil",
+				"Alemania y Brasil",
+				"Italia y Brasil"
+			],
+			"optCorrect": "Uruguay y Brasil"
+		},
+
+		{
+			"qt": "¿Cada cuántos años se realizan los Juegos Olímpicos?", 
+			"opt": 
+			[
+				"4 años",
+				"2 años",
+				"1 años",
+				"3 años"
+			],
+			"optCorrect": "4 años"
+		},
+
+		{
+			"qt": "¿Dónde se inventó el baloncesto?", 
+			"opt": 
+			[
+				"Massachussets",
+				"Boston",
+				"Chicago",
+				"Los Angeles"
+			],
+			"optCorrect": "Massachussets"
+		},
+
+		{
+			"qt": "¿En qué equipo jugó Francesco Totti durante toda su carrera?", 
+			"opt": 
+			[
+				"AS Roma",
+				"AC Milán",
+				"Inter de Milán",
+				"Juventus"
+			],
+			"optCorrect": "AS Roma"
+		},
+
+		{
+			"qt": "¿Qué animal es la mascota del Giro de Italia?", 
+			"opt": 
+			[
+				"Un lobo",
+				"Un oso",
+				"Un perro",
+				"Un águila"
+			],
+			"optCorrect": "Un lobo"
+		},
+
+		{
+			"qt": "¿La regla de Ruffini se aplica en qué campo de las ciencias?", 
+			"opt": 
+			[
+				"Matemáticas",
+				"Física",
+				"Química",
+				"Biología"
+			],
+			"optCorrect": "Matemáticas"
+		},
+
+		{
+			"qt": "¿Cuántos gramos son 100 mililitros?", 
+			"opt": 
+			[
+				"100 gramos",
+				"1000 gramos",
+				"10000 gramos",
+				"10 gramos"
+			],
+			"optCorrect": "100 gramos"
+		},
+
+		{
+			"qt": "¿Cuál es el nombre del teorema que afirma que, en el triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos?", 
+			"opt": 
+			[
+				"Teorema de Pitágoras",
+				"Teorema del Coseno",
+				"Teorema de Gauss",
+				"Teorema de Steiner"
+			],
+			"optCorrect": "Teorema de Pitágoras"
+		},
+
+		{
+			"qt": "¿Cuál es el elemento más abundante de la Tierra?", 
+			"opt": 
+			[
+				"El hidrógeno",
+				"El hierro",
+				"El zinc",
+				"Sodio"
+			],
+			"optCorrect": "El hidrógeno"
+		},
+
+		{
+			"qt": "¿Cuál es el animal más venenoso del mundo?", 
+			"opt": 
+			[
+				"La medusa avispa de mar",
+				"Araña brasileña",
+				"Serpiente taipán",
+				"Pez globo"
+			],
+			"optCorrect": "La medusa avispa de mar"
+		},
+
+		{
+			"qt": "¿Cuál es el planeta más grande del sistema solar?", 
+			"opt": 
+			[
+				"Júpiter",
+				"Saturno",
+				"La tierra",
+				"Venus"
+			],
+			"optCorrect": "Júpiter"
+		},
+
+		{
+			"qt": "¿Qué animal produce el sonido más fuerte generado por un ser vivo?", 
+			"opt": 
+			[
+				"La ballena",
+				"El león",
+				"El elefante",
+				"El lobo"
+			],
+			"optCorrect": "La ballena"
+		},
+
+		{
+			"qt": "¿Qué hormona es conocida como la hormona del estrés?", 
+			"opt": 
+			[
+				"El cortisol",
+				"Testosterona",
+				"Insulina",
+				"Hormonas tiroideas"
+			],
+			"optCorrect": "El cortisol"
+		},
+
+		{
+			"qt": "¿Qué órgano produce la bilirrubina?", 
+			"opt": 
+			[
+				"El hígado",
+				"El pancreas",
+				"Los riñones",
+				"El corazón"
+			],
+			"optCorrect": "El hígado"
+		},
+
+		{
+			"qt": "¿Cuál es el cuarto planeta del sistema solar?", 
+			"opt": 
+			[
+				"Marte",
+				"Júpiter",
+				"Mercurio",
+				"Tierra"
+			],
+			"optCorrect": "Marte"
+		},
+
+		{
+			"qt": "¿Dónde se realizó el primer trasplante de corazón humano?", 
+			"opt": 
+			[
+				"Sudáfrica",
+				"Francia",
+				"Alemania",
+				"Estados Unidos"
+			],
+			"optCorrect": "Sudáfrica"
 		}
 	]
 }
