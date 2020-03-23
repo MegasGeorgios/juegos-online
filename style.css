@@ -33,7 +33,6 @@ body {
 /*
 *	Preg y Resp
 */
-
 button#qt{
 	border: solid;
     border-color: rgb(120, 200, 0);
@@ -55,4 +54,9 @@ button#qt{
 }
 
 
-	
+/*
+*	Registros
+*/
+.text-center{
+	text-align: center;
+}

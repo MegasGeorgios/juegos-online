@@ -1,5 +1,13 @@
 (function($){
 
+/*
+*	Importar/incluir archivo js
+*/
+$.getScript("../js/localStorage.js", function( data, textStatus, jqxhr ) {
+  console.log( textStatus ); // Success
+  console.log( jqxhr.status ); // 200
+});
+
 /**VARIABLES GLOBALES**/
 var imgs = [
 	'canguro.jpg',
@@ -28,14 +36,11 @@ var imgs = [
 function randomOrder(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
 
-  // While there remain elements to shuffle...
   while (0 !== currentIndex) {
 
-    // Pick a remaining element...
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
 
-    // And swap it with the current element.
     temporaryValue = array[currentIndex];
     array[currentIndex] = array[randomIndex];
     array[randomIndex] = temporaryValue;
@@ -43,7 +48,6 @@ function randomOrder(array) {
 
   return array;
 }
-
 
 /*
 *	Cronometro
@@ -146,9 +150,11 @@ $( document ).ready(function() {
 			if (success == 8) 
 			{
 				stopChronometer();
+
 				setTimeout(function(){
 					var finalTime = $("#reloj").text();
 					alert('Tiempo total: '+finalTime+' ¡¡¡ Felicitaciones, lo has logrado !!!');
+					storageRecord('recordsMemory','memory',finalTime);
 				}, 1000);
 			}
 		}

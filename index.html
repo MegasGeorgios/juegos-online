@@ -7,8 +7,12 @@
     <meta name="author" content="Georgios Botas Recchia">
 	<title>Juegos online!</title>
 
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 	<!--Bootstrap-->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
+	<script src="assets/bootstrap/bootstrap.js"></script>
 
 	<!-- Estilos-->
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -16,11 +20,23 @@
 	<!--Fuentes-->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 
+	<!--sessionStorage y prompt username-->
+	<script src="js/sessionStorage.js"></script>
+	
 </head>
 <body>
 
 	<nav class="navbar navbar-light bg-light">
-	  <a class="navbar-brand" href="index.html">Juegos Online</a>
+		<a class="navbar-brand" href="index.html">Juegos Online</a>
+		<div class="dropdown">
+		  <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		    <span id="welcome"></span>
+		  </a>
+
+		  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+		    <a class="dropdown-item" href="registros.html">Registros</a>
+		  </div>
+		</div>
 	</nav>
 
 	<div class="container container-top">
@@ -54,5 +70,6 @@
 		  </div>
 		</div>
 	</div>
+
 </body>
 </html>

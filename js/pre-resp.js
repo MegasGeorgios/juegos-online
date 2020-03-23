@@ -1,5 +1,13 @@
 (function($) {
 
+/*
+*	Importar/incluir archivo js
+*/
+$.getScript("../js/localStorage.js", function( data, textStatus, jqxhr ) {
+  console.log( textStatus ); // Success
+  console.log( jqxhr.status ); // 200
+});
+
 /**VARIABLES GLOBALES**/
 var arrQtResJSON;
 var arrQtRes = [];
@@ -56,7 +64,6 @@ function randomOrder(array) {
 
   while (0 !== currentIndex) {
 
-    // Pick a remaining element...
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
 
@@ -124,6 +131,7 @@ function getRandomIndex(min, max)
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
+
 /**jQuery**/
 $( document ).ready(function() {
 
@@ -158,7 +166,9 @@ $( document ).ready(function() {
 				// siguiente pregunta
 				optCorrect = printQuestion(arrQtRes,countQt);
 			}else{
+			
 				alert('¡¡¡ Has acertado '+success+' de 10 !!!');
+				storageRecord('recordsQT','qt-resp',success);
 			}
 
 		}, 3000);

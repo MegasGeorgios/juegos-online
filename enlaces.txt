@@ -1,3 +1,9 @@
 /*CRONOMETRO*/
 
 https://aprende-web.net/jspracticas/tiempo/cod_crono.html
+
+
+
+/*STORAGE*/
+
+https://www.w3schools.com/html/html5_webstorage.asp
