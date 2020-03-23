@@ -135,6 +135,11 @@ function getRandomIndex(min, max)
 /**jQuery**/
 $( document ).ready(function() {
 
+	// barra de progreso
+	$( "#progressbar" ).progressbar({
+	  value: 0
+	});
+
 	requestDataJSON();
 	arrQtRes = getTenQt();
 
@@ -163,11 +168,23 @@ $( document ).ready(function() {
 		{	
 			if (countQt < 10)
 			{
+				// barra de progreso
+				$( "#progressbar" ).progressbar({
+				  value: countQt*10
+				});
 				// siguiente pregunta
 				optCorrect = printQuestion(arrQtRes,countQt);
 			}else{
-			
-				alert('¡¡¡ Has acertado '+success+' de 10 !!!');
+				
+				// barra de progreso
+				$( "#progressbar" ).progressbar({
+				  value: 100
+				});
+				setTimeout(function()
+				{	
+					alert('¡¡¡ Has acertado '+success+' de 10 !!!');
+				}, 1000);
+				
 				storageRecord('recordsQT','qt-resp',success);
 			}
 

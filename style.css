@@ -60,3 +60,11 @@ button#qt{
 .text-center{
 	text-align: center;
 }
+
+
+/*
+*	Barra de progreso
+*/
+.ui-widget-header {
+    background: rgb(120, 200, 0) !important;
+}

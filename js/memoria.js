@@ -111,7 +111,6 @@ $( document ).ready(function() {
 
 		if (success < 8) 
 		{
-			console.log(success);
 			var id = $(this).attr("id");
 			var index = $(this).data("index");
 
