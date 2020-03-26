@@ -8,13 +8,14 @@ body {
 
 .container-top{
 	padding-top: 20px;
+	position: relative;
 }
 
 
 /*
 *	Memoria
 */
-.img-memory{
+.img-memory, .img-hangman{
 	border: solid;
 	border-color: rgb(120, 200, 0);
 	margin: 15px;
@@ -53,6 +54,24 @@ button#qt{
     background-color: #c6c8ca !important;
 }
 
+/*
+*	Barra de progreso
+*/
+.ui-widget-header {
+    background: rgb(120, 200, 0) !important;
+}
+
+/*
+*	Ahorcado
+*/
+#word {
+	padding-top: 150px;
+}
+
+#word p{
+	font-size: 30px;
+}
+
 
 /*
 *	Registros
@@ -61,10 +80,22 @@ button#qt{
 	text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
 
-/*
-*	Barra de progreso
-*/
-.ui-widget-header {
-    background: rgb(120, 200, 0) !important;
+	.col-media-hangman {
+		position: absolute;
+		bottom: -120px;
+		left: 20px;
+	}
+
+	.col-media-qt{
+	    flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.col-media-memory{
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+
 }

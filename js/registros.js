@@ -33,9 +33,10 @@ $( document ).ready(function() {
 
 	// pintar datos en tablas
 	printRecords("recordsMemory","#memory");
-	printRecords("recordsQT","#qt-resp");
 	printRecords("recordsBJ","#bj");
-
+	printRecords("recordsHangman","#hangman");
+	printRecords("recordsQT","#qt-resp");
+	
 });
 
 })(jQuery);

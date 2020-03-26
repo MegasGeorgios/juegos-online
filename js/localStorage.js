@@ -40,6 +40,20 @@ function storageRecord(arrJson,game,record)
 	    }
 	}
 
+	if (game == 'hangman') 
+	{
+		let attempts = record[0];
+		let fails = record[1]-1; // -1 por q esta inicializado en 1 
+		let totalAttempts = attempts+fails;
+		let success = fails+' / '+totalAttempts;
+
+		var recordJSON = {
+	        user: userName,
+	        record: success,
+	      	date: date
+	    }
+	}
+
 	// obtener el array de json
 	let records = JSON.parse(localStorage.getItem(arrJson) || "[]");
 

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Aplicación de juegos online en JavaScript y jQuery">
+    <meta name="author" content="Georgios Botas Recchia">
+	<title>Juego del ahorcado</title>
+
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="../assets/bootstrap/bootstrap.css">
+
+	<!-- Estilos-->
+	<link rel="stylesheet" type="text/css" href="../style.css">
+
+	<!--Fuentes-->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<nav class="navbar navbar-light bg-light">
+	  <a class="navbar-brand" href="../index.html">Juegos Online</a>
+	</nav>
+
+	<div class="container container-top">
+
+		<div class="row">
+			<div class="col-6">
+				<img class="img-hangman" id="img-hangman" src="../assets/imgs-ahorcado/1.jpg">
+			</div>
+			<div class="col-6 col-media-hangman">
+				<div id="word"></div>
+				<label for="letter">Di una letra:</label>
+				<input type="text" id="letter" name="letter">
+				<button type="button" id="submit-letter">Validar</button>
+			</div>
+		</div>
+
+	</div>
+
+<script src="../js/ahorcado.js"></script>
+</body>
+</html>
