@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Black Jack, aplicación de juegos online en JavaScript y jQuery">
+    <meta name="author" content="Georgios Botas Recchia">
+	<title>Black Jack</title>
+
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="../assets/bootstrap/bootstrap.css">
+
+	<!-- Estilos-->
+	<link rel="stylesheet" type="text/css" href="../style.css">
+
+	<!--Fuentes-->
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+	<!--jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+	<nav class="navbar navbar-light bg-light">
+	  <a class="navbar-brand" href="../index.html">Juegos Online</a>
+	</nav>
+
+	<div class="container container-top">
+
+		<div class="back-color">
+			<div id="deck" class="deck center">
+				<div class="row card-bj-deck">
+					<img class="img-bj" id="img-deck" src="../assets/imgs-bj/default.jpg">
+					<span id="deck-length"></span>
+				</div>
+				<div id="cards-house" class="row">
+					<div id="points-house"></div>
+
+					<div id="card-h-1" class="card-bj">
+						
+					</div>
+					<div id="card-h-2" class="card-bj">
+						
+					</div>
+				</div>
+			</div>		
+			<div id="cards-player" class="row">
+				<div class="cards-player">
+					<div id="points"></div>
+				</div>
+				
+				<div id="card-1" class="card-bj">
+					
+				</div>
+				<div id="card-2" class="card-bj">
+					
+				</div>
+			</div>
+		</div>
+		<div class="btns">
+			<button id="hit">Otra carta</button>
+			<button id="stand">¡ Me planto !</button>
+		</div>
+
+	</div>
+
+<script src="../js/black-jack.js"></script>
+</body>
+</html>

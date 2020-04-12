@@ -11,3 +11,7 @@ https://www.w3schools.com/html/html5_webstorage.asp
 /*BARRA DE PROGRESO JQUERY UI*/
 
 https://jqueryui.com/progressbar/#label
+
+/*BJ*/
+
+https://www.thatsoftwaredude.com/content/6417/how-to-code-blackjack-using-javascript

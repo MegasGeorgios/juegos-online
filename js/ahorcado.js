@@ -84,11 +84,12 @@ $( document ).ready(function() {
 
 	$("#word").append(str_);
 
-	$("#submit-letter").click(function() {
+	$(".submit-letter").click(function() {
 
 		// obtenemos la letra que el usuario inserto
-		var letter = $("#letter").val();
-		$("#letter").val('');
+		var letter = $(this).val();
+		
+		$(this).prop('disabled', true);
 
 		let indexesFound = getAllIndexes(wordArr, letter)
 
@@ -101,7 +102,7 @@ $( document ).ready(function() {
 			
 			if ( fails === 7 ) 
 			{
-				$("#submit-letter").prop('disabled', true);
+				$(".submit-letter").prop('disabled', true);
 				setTimeout(function(){
 					let r = confirm('¡¡¡ Has perdido !!! ¿Quieres intentarlo de nuevo?');
 
@@ -124,7 +125,7 @@ $( document ).ready(function() {
 			{
 				setTimeout(function(){
 					alert('¡¡¡ Lo has logrado !!! Intentos: '+ totalAttempts);
-					$("#submit-letter").prop('disabled', true);
+					$(".submit-letter").prop('disabled', true);
 
 					storageRecord('recordsHangman','hangman',[attempts,fails]);
 				}, 1000);

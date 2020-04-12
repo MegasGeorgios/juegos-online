@@ -6,7 +6,16 @@ function storageRecord(arrJson,game,record)
 	var userName = sessionStorage.getItem('userName');
 	var d = new Date();
 	var month = d.getMonth()+1;
-	var date = d.getDate()+'-'+month+'-'+d.getFullYear()+' '+d.getHours()+':'+d.getMinutes()+':'+d.getSeconds();
+	var day = d.getDate();
+	var hh = d.getHours();
+	var mi = d.getMinutes();
+
+	if (day < 10) { day = '0'+day; }
+	if (month < 10) { month = '0'+month; }
+	if (hh < 10) { hh = '0'+hh; }
+	if (mi < 10) { mi = '0'+mi; }
+
+	var date = day+'-'+month+'-'+d.getFullYear()+' '+hh+':'+mi;//+':'+d.getSeconds();
 		
 	if (game == 'memory') 
 	{

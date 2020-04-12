@@ -11,6 +11,12 @@ body {
 	position: relative;
 }
 
+.index{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
 
 /*
 *	Memoria
@@ -65,7 +71,7 @@ button#qt{
 *	Ahorcado
 */
 #word {
-	padding-top: 150px;
+	padding-top: 10px;
 }
 
 #word p{
@@ -80,11 +86,40 @@ button#qt{
 	text-align: center;
 }
 
+/*
+*	BlackJack
+*/
+.back-color{
+	background-color: #006400; 
+}
+
+.img-bj, #points {
+	margin: 15px;
+	padding-left: 15px;
+}
+
+#deck-length, #points, #points-house{
+	color: #ffffff;
+	padding-top: 50px;
+}
+
+.points-house{
+	padding-left: 15px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
 @media only screen and (max-width: 768px) {
 
 	.col-media-hangman {
 		position: absolute;
-		bottom: -120px;
+		padding-top: 520px;
+		/*bottom: -140px;*/
 		left: 20px;
 	}
 
