@@ -93,9 +93,18 @@ button#qt{
 	background-color: #006400; 
 }
 
-.img-bj, #points {
+.img-bj, .img-bj-deck, #points {
 	margin: 15px;
 	padding-left: 15px;
+}
+
+#stats {
+    border: none;
+    margin: 5px;
+}
+
+#lose{
+	padding-left: 10px;
 }
 
 #deck-length, #points, #points-house{

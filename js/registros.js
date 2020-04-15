@@ -31,6 +31,60 @@ function printRecords(arrJson, id)
 /**jQuery**/
 $( document ).ready(function() {
 
+	var html = `<div id="memory">
+			<h5>Memoria</h5>
+			<table class="table table-bordered">
+			  <thead>
+			    <tr>
+			      <th scope="col">#</th>
+			      <th scope="col">Usuario</th>
+			      <th scope="col">Tiempo</th>
+			      <th scope="col">Fecha</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    
+			  </tbody>
+			</table>
+		</div>
+
+		<div id="hangman">
+			<h5 class="container-top">El ahorcado</h5>
+			<table class="table table-bordered">
+			  <thead>
+			    <tr>
+			      <th scope="col">#</th>
+			      <th scope="col">Usuario</th>
+			      <th scope="col">Fallos / Intentos</th>
+			      <th scope="col">Fecha</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    
+			  </tbody>
+			</table>
+		</div>
+
+		<div id="qt-resp">
+			<h5 class="container-top">Preguntas y respuestas</h5>
+			<table class="table table-bordered">
+			  <thead>
+			    <tr>
+			      <th scope="col">#</th>
+			      <th scope="col">Usuario</th>
+			      <th scope="col">Aciertos</th>
+			      <th scope="col">Fecha</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    
+			  </tbody>
+			</table>
+		</div>`;
+
+	// creacion de la pagina "registros" mediante el DOM.
+	$('.container').append(html);
+
 	// pintar datos en tablas
 	printRecords("recordsMemory","#memory");
 	printRecords("recordsBJ","#bj");

@@ -37,18 +37,6 @@ function storageRecord(arrJson,game,record)
 	    }
 	}
 
-	if (game == 'bj') 
-	{
-		let lose = 10-record;
-		let success = record+' / '+lose;
-
-		var recordJSON = {
-	        user: userName,
-	        record: success,
-	      	date: date
-	    }
-	}
-
 	if (game == 'hangman') 
 	{
 		let attempts = record[0];

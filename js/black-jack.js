@@ -1,19 +1,13 @@
 (function($){
 
-/*
-*	Importar/incluir archivo js
-*/
-$.getScript("../js/localStorage.js", function( data, textStatus, jqxhr ) {
-  console.log( textStatus ); // Success
-  console.log( jqxhr.status ); // 200
-});
-
 /**VARIABLES GLOBALES**/
 var suits = ["PICAS", "CORAZONES", "DIAMANTES", "TREBOL"];
 var values = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"]; 
 var deck = new Array();
 var players = new Array();
-//var currentPlayer = 0;
+var lose = 0;
+var win = 0;
+
 
 /**FUNCIONES**/
 
@@ -203,7 +197,6 @@ function renderCard(card, render)
     {
         $("#cards-house").append(img);
     }
-    
 }
 
 /*
@@ -232,7 +225,9 @@ function renderNumDeck()
     $(".card-bj-deck").append(str);
 }
 
-
+/*
+*   Juega la casa, intenta obtener una puntuacion mayor a la del usuario
+*/
 function playHouse(pointsUser) 
 {
     let currentPlayer = 1;
@@ -240,6 +235,7 @@ function playHouse(pointsUser)
     let src_h_2 = players[1].Hand[1].Value+'-'+players[1].Hand[1].Suit+'.jpg';
     $(".card-default").attr("src", "../assets/imgs-bj/"+src_h_2);
     
+    // si el usuario no se paso de 21
     if (pointsUser <= 21) 
     {
         for(let i=0; i<10; i++)
@@ -253,6 +249,60 @@ function playHouse(pointsUser)
     }
     renderNumDeck();
     renderPointsHouse(players[1].Points);
+
+    return players[1].Points;
+}
+
+/*
+*   Contador de victorias y derrortas el usuario
+*/
+function stats(pointsUser, pointsHouse)
+{
+    if ( pointsUser > 21 ) 
+    {
+        lose++;
+    }else if ( pointsHouse > 21 )
+    {
+        win++;
+    }else if ( pointsUser < pointsHouse && pointsHouse <= 21 )
+    {
+        lose++;
+    }else if ( pointsUser > pointsHouse && pointsUser <= 21 )
+    {
+        win++;
+    }
+
+    $('#wins').text('Victorias: '+win);
+    $('#lose').text('Derrotas: '+lose);
+}
+
+/*
+*   Nueva partida
+*/
+function restartGame()
+{   
+    // eliminar cartas jugada previa
+    $(".img-bj").remove();
+
+    $("#hit").prop('disabled', false);
+    $("#stand").prop('disabled', false);
+
+    // si quedan menos de 10 cartas crear nuevo mazo
+    if (deck.length <= 10 ) 
+    {
+        // crear el mazo
+        createDeck();
+        // barajar el mazo
+        shuffle();
+    }
+    // inicializar los jugadores
+    createPlayers();
+    // repartir la mano 
+    dealHands();
+
+    renderNumDeck();  
+    $("#points-house").empty();  
+    renderPoints(players[0].Points);    
 }
 
 
@@ -260,7 +310,7 @@ function playHouse(pointsUser)
 $( document ).ready(function() {
 
     var currentPlayer = 0;
-    var pointsUser = 0; 
+    var pointsUser = 0;
 
     // crear el mazo
 	createDeck();
@@ -296,7 +346,13 @@ $( document ).ready(function() {
         {
             $("#hit").prop('disabled', true);
             $("#stand").prop('disabled', true);
-            playHouse(pointsUser);    
+            var pointsHouse = playHouse(pointsUser);
+
+            stats(pointsUser, pointsHouse); 
+          
+            setTimeout(function(){
+                restartGame();
+            }, 5000);   
         }
 	});
 
@@ -304,7 +360,13 @@ $( document ).ready(function() {
 
         $("#hit").prop('disabled', true);
         $("#stand").prop('disabled', true);
-        playHouse(players[0].Points);
+        var pointsHouse = playHouse(players[0].Points);
+
+        stats(players[0].Points, pointsHouse); 
+                     
+        setTimeout(function(){
+            restartGame();
+        }, 5000);   
     });
 
 });
