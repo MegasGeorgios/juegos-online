@@ -109,7 +109,7 @@ $( document ).ready(function() {
 					if (r == true) {
 					  window.location.reload();
 					} else {
-					  window.location.href = "/apps/app-games/";
+					  window.location.href = "../index.html";
 					}
 				}, 1000);
 			}

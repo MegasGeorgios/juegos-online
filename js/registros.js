@@ -8,6 +8,7 @@
 function printRecords(arrJson, id)
 {
 	var strEle = '';
+	//obtenemos el array con los registros mediante localStorage.
 	let records = JSON.parse(localStorage.getItem(arrJson) || "[]");
 	let ele = $(id).find('tbody');
 
@@ -18,6 +19,7 @@ function printRecords(arrJson, id)
 		return;
 	}
 
+	// pinitar los registros en la tabla.
 	for(var i = 0; i < records.length; i++) 
 	{
 		let index = i+1;
@@ -87,7 +89,6 @@ $( document ).ready(function() {
 
 	// pintar datos en tablas
 	printRecords("recordsMemory","#memory");
-	printRecords("recordsBJ","#bj");
 	printRecords("recordsHangman","#hangman");
 	printRecords("recordsQT","#qt-resp");
 	

@@ -19,11 +19,24 @@
 	<!--jQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
+	<!--Iconos-->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	<!-- Redirigir a index si no hay un username asignado en sessionStorage -->
+	<script type="text/javascript">
+		if (sessionStorage.userName == null || typeof(sessionStorage.userName) == 'undefined') 
+		{
+			document.location.href="../index.html";
+		}
+	</script>
 </head>
 <body>
 
 	<nav class="navbar navbar-light bg-light">
-	  <a class="navbar-brand" href="../index.html">Juegos Online</a>
+		<a class="navbar-brand" href="../index.html">
+			<i class="fa fa-gamepad"></i>
+			Juegos Online
+		</a>
 	</nav>
 
 	<div class="container container-top">
@@ -82,9 +95,6 @@
 						</tr>
 					</tbody>
 				</table>
-				<!--<label for="letter">Di una letra:</label>
-				<input type="text" id="letter" name="letter">
-				<button type="button" id="submit-letter">Validar</button>-->
 
 			</div>
 		</div>

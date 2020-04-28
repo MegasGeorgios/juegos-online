@@ -5,7 +5,7 @@ https://aprende-web.net/jspracticas/tiempo/cod_crono.html
 
 /*STORAGE*/
 
-https://www.w3schools.com/html/html5_webstorage.asp
+https://stackoverflow.com/questions/43762363/how-to-store-an-array-of-objects-in-local-storage
 
 
 /*BARRA DE PROGRESO JQUERY UI*/
